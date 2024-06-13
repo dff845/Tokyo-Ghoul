@@ -1,0 +1,91 @@
+body{
+background-color: rgb(214, 157, 147);
+}
+
+article{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+    background-image: linear-gradient( rgb(214, 157, 147), rgb(107, 62, 62), rgb(214, 157, 147));
+}
+
+h3{
+    font-size: 25px;
+}
+
+div{
+    text-align: center;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+   justify-content: space-around;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(82, 75, 8);
+    font-size: 20px;
+}
+
+h4{
+    text-align: center;
+    font-size: 28px;
+}
+
+footer{
+    text-align: center;
+}
+
+article img:hover{
+    transform: scale(1.5);
+    transition: 1s linear;
+}
+
+article{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.gule:hover{
+        transform: scale(1.3);
+    transition: 1s linear;
+}
+
+.gule{
+    height: 300px;
+    width: 250px;
+}
+
+a:last-child{
+    background-color: rgb(109, 109, 165);
+}
+
+
+
+a img{
+    width: 30px;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+header{
+    background-image: linear-gradient( rgb(214, 157, 147), white, rgb(214, 157, 147));
+}
