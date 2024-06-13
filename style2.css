@@ -1,0 +1,52 @@
+body{
+background-color: rgb(214, 157, 147);
+
+}
+
+header{
+    background-image: linear-gradient( rgb(214, 157, 147), white, rgb(214, 157, 147));
+}
+
+article{
+    display: flex;
+}
+main, header{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 28px;
+}
+
+footer{
+    text-align: center;
+}
+a img{
+    width: 30px;
+    
+}
+nav a {
+    text-decoration: none;
+    color: rgb(82, 75, 8);
+    font-size: 20px;
+}
+footer p{
+    font-size: 12px;
+}
+
+a:first-child{
+    background-color: rgb(109, 109, 165);
+}
